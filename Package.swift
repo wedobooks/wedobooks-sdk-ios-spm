@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WeDoBooksSDK",
-            url: "https://wdb-ios-spm-844218222632.europe-west1.run.app/WeDoBooksSDK-v0.1.1.xcframework.zip",
-            checksum: "20730f65db87a248bf52f86d1fbacd9a4809844142ce4c641ba10da4d0ede1ab"
+            url: "https://wdb-ios-spm-844218222632.europe-west1.run.app/WeDoBooksSDK-v0.1.2.xcframework.zip",
+            checksum: "5f978fdd414abb4029ee4f3e8ad089ab394bf14f071092304e46998731fd98fb"
         )
     ]
 )
