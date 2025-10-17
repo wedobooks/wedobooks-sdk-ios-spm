@@ -12,12 +12,16 @@ let package = Package(
             targets: ["WeDoBooksWrapper"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/wedobooks/wedobooks-sdk-ios-firebase-provider.git", from: "1.0.0"),
+    ],
     targets: [
         .target(
             name: "WeDoBooksWrapper",
             dependencies: [
                 "WeDoBooksSDK",
-                "ColibrioReader"
+                "ColibrioReader",
+                .product(name: "FirebaseProvider", package: "wedobooks-sdk-ios-firebase-provider"),
             ]
         ),
         .binaryTarget(
