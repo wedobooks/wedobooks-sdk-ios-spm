@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/wedobooks/wedobooks-sdk-ios-firebase-provider.git", from: "1.1.2"),
+        .package(url: "https://github.com/wedobooks/wedobooks-sdk-ios-firebase-provider.git", from: "1.1.3"),
     ],
     targets: [
         .target(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WeDoBooksSDK",
-            url: "https://wdb-ios-spm-844218222632.europe-west1.run.app/WeDoBooksSDK-v1.3.1.xcframework.zip",
-            checksum: "b47021b3a0bca0250f81cdc8c87063017810736fdb523c834f420734f444ae87"
+            url: "https://wdb-ios-spm-844218222632.europe-west1.run.app/WeDoBooksSDK-v1.3.2.xcframework.zip",
+            checksum: "917319e6ccf5a69aa96fc598bd69ec7e2b10a08ae576b6f2b02f8f10f8da322b"
         ),
         .binaryTarget(
             name: "ColibrioReader",
