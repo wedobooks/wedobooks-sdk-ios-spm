@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WeDoBooksSDK",
-            url: "https://wdb-ios-spm-844218222632.europe-west1.run.app/WeDoBooksSDK-v1.9.0-rc3.xcframework.zip",
-            checksum: "71c4973eb2a2a63d16a0036dee2c109ecfad56c4f583cada8048c9d18a656938"
+            url: "https://wdb-ios-spm-844218222632.europe-west1.run.app/WeDoBooksSDK-v1.9.0-rc4.xcframework.zip",
+            checksum: "f3442c0ca4850bb66c6e0972d223cdb90ba7b4a038f0b48f48a43ccaa1ee301e"
         ),
         .binaryTarget(
             name: "ColibrioReader",
